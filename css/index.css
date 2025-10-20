@@ -1,0 +1,26 @@
+ .content {padding: 1rem 0; }
+ .designs { width: 100%; position: relative;} 
+ .designs img { max-width: 100%; }
+ p{position: absolute;bottom: 2%;left: 6%;text-decoration: underline;font-size: 0.7rem;}
+
+ video { width: 100vw; height: auto; } 
+
+ .designs .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; } 
+  /* TODO: 태블릿 */
+@media screen and (min-width: 768px) { /* .btn-wrapper { gap: 2rem; } */
+ .designs { display: flex; justify-content: center; } 
+ .designs img { max-width: 80%; } 
+ video { width: 80%; } 
+.designs .gif-practice { right: 12%; bottom: 7%; font-size: 0.7rem;}
+p{font-size: 0.9rem;padding-left: 9%;}
+}
+
+/* TODO: pc */
+@media screen and (min-width: 1280px){
+ .t-right { text-align: center; } 
+ .t-left { text-align: center; }
+.designs .gif-practice { right: 20%; bottom: 10%; font-size: 0.9rem; }
+ .designs img { max-width: 70%; } 
+ video { width: 70%; } 
+p{font-size: 1rem;padding-left: 14%;}
+ }

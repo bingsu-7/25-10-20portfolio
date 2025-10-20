@@ -1,0 +1,14 @@
+.gnb { display: flex; position: fixed; left: 0;top: 0;} 
+
+/* fab */
+#fab { width: 50px; height: 50px; background-color: gainsboro; border-radius: 50%; position: fixed; bottom: 3vh; left: 85vw; display: flex; justify-content: center; align-items: center;z-index: 999; } 
+ #fab > img { max-width: 60%; } 
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px) {.intro { padding: 1rem 0 1rem 15rem; } 
+#fab { 
+ left: 92vw; } 
+ }
+
+/* TODO: pc */
+@media screen and (min-width: 1280px) {
+}
