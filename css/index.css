@@ -5,7 +5,7 @@
 
  video { width: 100vw; height: auto; } 
 
- .designs .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; } 
+ .designs .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; }
   /* TODO: 태블릿 */
 @media screen and (min-width: 768px) { /* .btn-wrapper { gap: 2rem; } */
  .designs { display: flex; justify-content: center; } 
